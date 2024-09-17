@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="favicon-dragon-fofo.ico"
+      type="image/x-icon"
+    />
+    <title>Modelo de Caixas</title>
+
+    <style>
+      /* Box-level */
+      h1 {
+        color: white;
+        background-color: lightskyblue;
+        height: 300px;
+        width: 300px;
+
+        /* border-width: 10px;
+            border-style: solid;
+            border-color: darkcyan; */
+        /* Shorthand */
+        border: 10px solid darkcyan;
+
+        /* padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; */
+        /* Se forem todos do mesmo valor  informe só uma vez*/
+        padding: 10px;
+
+        /* margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px; */
+        margin: 20px auto 40px auto;
+
+        /* outline-width: 5px;
+            outline-style: dashed;
+            outline-color: darkgreen; */
+        outline: 5px dashed darkgreen;
+      }
+      /* Inline-level */
+      a {
+        border-width: 10px;
+        border-style: solid;
+        border-color: darkred;
+
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>
+      Parágrafos também são exemplos de box-level, mas os
+      <a href="#">links são exemplos de inline-level</a>. Vamos ver como tudo
+      isso funciona.
+    </p>
+    <a href="caixa02.html">Ir para caixa 02</a>
+  </body>
+</html>

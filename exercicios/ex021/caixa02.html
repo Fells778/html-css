@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="favicon-dragon-fofo.ico"
+      type="image/x-icon"
+    />
+    <title>Gruping Tags</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkolivegreen;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin:  10px;
+        }
+
+        nav {
+            background-color: rgb(85, 85, 85);
+            padding: 3px;
+            box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.589);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav a:hover {
+            color: yellowgreen;
+        }
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(163, 163, 163);
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.685);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola {
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        i {
+            font-size: 25px;
+        }
+        
+        .link_especial {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .link_especial:hover {
+            color: darkgreen;
+        }
+
+        .link_especial::after {
+            content: "↗";
+        }
+
+    </style>
+  </head>
+  <body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad asperiores voluptatem quidem! Hic minus qui tempora dignissimos? Veritatis sed eos id neque? Ex vel aperiam vero consequatur. Ad, maxime repellat.</p>
+                <aside>
+                    <p>Artigooo</p>
+                </aside>
+            </article>
+        </section>
+        <a href="caixa01.html">Voltar para pagina 01</a>
+        <a href="caixa03.html">Ir para pagina 03</a>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <a class="link_especial" href="https://github.com/Fells778" target="_blank">Felipe</a> <i class='bx bxl-dev-to'><i class='bx bxs-devices' ></i></i></i></p>
+    </footer>
+
+    <div id="bola"></div>
+  </body>
+</html>
