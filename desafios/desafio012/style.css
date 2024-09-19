@@ -55,12 +55,15 @@ a:hover {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 30px;
+    padding: 10vh 0px 10vh 30px;
     background-color: gainsboro;
     line-height: 2em;
     font-size: 3.5vw;
+    font-family: var(--fonte03);
+}
+
+section p {
+    padding-bottom: 2em;
 }
 
 .section-normal {
@@ -68,7 +71,7 @@ section {
 }
 
 .background-imagem {
-
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
 }
 
 #section-background01 {
@@ -78,11 +81,9 @@ section {
 
 #section-background02 {
     background: grey url(imagens/background002.jpg) right center no-repeat fixed;
-    background-size: cover;
 }
 
 #section-background01 p, #section-background02 p {
-    width: 400px;
     color: white;
     display: inline-block;
     padding: 5px;
